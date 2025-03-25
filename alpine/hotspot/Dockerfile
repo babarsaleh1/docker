@@ -147,3 +147,4 @@ LABEL \
     org.opencontainers.image.source="https://github.com/jenkinsci/docker" \
     org.opencontainers.image.revision="${COMMIT_SHA}" \
     org.opencontainers.image.licenses="MIT"
+ENV JENKINS_UC=https://updates.jenkins.io.fix
